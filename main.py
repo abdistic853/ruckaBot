@@ -74,28 +74,10 @@ async def rucka(ctx):
 async def say(ctx, *, msg):
   await ctx.send(msg)
   await ctx.message.delete()
-isis = r"https://watchpeopledie.tv/h/isis"
-isisname = ["sounding you"]
 @bot.command()
 async def echo(ctx, *, msg):
   await ctx.send(msg)
   await ctx.message.delete()
-class ActionGifs(commands.Cog):
-
-    def __init__(self, client):
-        self.client = client
-
-    @commands.command()
-    async def rag(self, ctx: commands.Context,):
-        embed = discord.Embed(
-            colour=discord.Colour(0xCE3011),
-            description=f"{ctx.author.mention} {(random.choice(isisname))}"
-
-        )
-        embed.set_image(url=(random.choice(isis)))
-
-        await ctx.send(embed=embed)
-
 
 
 bot.run('MTE5NzU2NzU4OTQzMDM0OTkwNg.GnGF6f.lH2Jt3lrO_I4g4c2mPwTBcRQZ8_0lb-n_FxoDk')
