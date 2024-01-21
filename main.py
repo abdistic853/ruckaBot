@@ -80,4 +80,4 @@ async def echo(ctx, *, msg):
   await ctx.message.delete()
 
 
-bot.run('MTE5NzU2NzU4OTQzMDM0OTkwNg.GnGF6f.lH2Jt3lrO_I4g4c2mPwTBcRQZ8_0lb-n_FxoDk')
+bot.run('')
